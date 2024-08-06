@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D315F962C40720300C75D78 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D315F952C40720300C75D78 /* Launch Screen.storyboard */; };
+		0D522FB42C4E73F500CE95AF /* RequireHealthKitAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D522FB32C4E73F500CE95AF /* RequireHealthKitAccessView.swift */; };
+		0D77DE522C41AA4000464C4B /* HealthKitAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77DE512C41AA4000464C4B /* HealthKitAccessView.swift */; };
+		0D8326D22C29A2BF00FD2CE6 /* BackgroundTaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326D12C29A2BF00FD2CE6 /* BackgroundTaskScheduler.swift */; };
+		0D8326D42C29A2F500FD2CE6 /* StepCheckTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326D32C29A2F500FD2CE6 /* StepCheckTask.swift */; };
+		0D8326D62C29B35200FD2CE6 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326D52C29B35200FD2CE6 /* OnboardingViewModel.swift */; };
+		0D8326D82C29B38600FD2CE6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326D72C29B38600FD2CE6 /* LoginView.swift */; };
+		0D8326DA2C29B50600FD2CE6 /* ScreenTimeAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326D92C29B50600FD2CE6 /* ScreenTimeAccessView.swift */; };
+		0D8326DC2C29B6BB00FD2CE6 /* ChooseAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326DB2C29B6BB00FD2CE6 /* ChooseAppsView.swift */; };
+		0D8326DE2C29B6CA00FD2CE6 /* SetStepThresholdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326DD2C29B6CA00FD2CE6 /* SetStepThresholdView.swift */; };
+		0D8326E02C29B6E200FD2CE6 /* AllowNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326DF2C29B6E200FD2CE6 /* AllowNotificationsView.swift */; };
+		0D8326E22C29B9F600FD2CE6 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326E12C29B9F600FD2CE6 /* NotificationManager.swift */; };
+		0D8326E62C29D3B700FD2CE6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326E52C29D3B700FD2CE6 /* OnboardingView.swift */; };
+		0D8326EC2C2B063A00FD2CE6 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8326EB2C2B063A00FD2CE6 /* AppConstants.swift */; };
+		0DA6ECF42C2B404900473587 /* SetStepThresholdPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6ECF32C2B404900473587 /* SetStepThresholdPickerView.swift */; };
+		0DA6ECF62C2B429800473587 /* TimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6ECF52C2B429800473587 /* TimeHelper.swift */; };
 		0DFA4AA62C271495008B934C /* WalkToUnlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4AA52C271495008B934C /* WalkToUnlockApp.swift */; };
 		0DFA4AA82C271495008B934C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4AA72C271495008B934C /* ContentView.swift */; };
 		0DFA4AAA2C271496008B934C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DFA4AA92C271496008B934C /* Assets.xcassets */; };
@@ -14,6 +30,10 @@
 		0DFA4AB72C271496008B934C /* WalkToUnlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4AB62C271496008B934C /* WalkToUnlockTests.swift */; };
 		0DFA4AC12C271496008B934C /* WalkToUnlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4AC02C271496008B934C /* WalkToUnlockUITests.swift */; };
 		0DFA4AC32C271496008B934C /* WalkToUnlockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4AC22C271496008B934C /* WalkToUnlockUITestsLaunchTests.swift */; };
+		0DFA4AD62C271F84008B934C /* StepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4AD52C271F84008B934C /* StepManager.swift */; };
+		0DFA4AD82C272252008B934C /* AppShieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4AD72C272252008B934C /* AppShieldManager.swift */; };
+		0DFA4ADA2C272567008B934C /* FamilyActivityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4AD92C272567008B934C /* FamilyActivityPickerView.swift */; };
+		0DFA4ADC2C287F46008B934C /* LocalStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA4ADB2C287F46008B934C /* LocalStoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D315F952C40720300C75D78 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0D522FB32C4E73F500CE95AF /* RequireHealthKitAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequireHealthKitAccessView.swift; sourceTree = "<group>"; };
+		0D77DE512C41AA4000464C4B /* HealthKitAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitAccessView.swift; sourceTree = "<group>"; };
+		0D8326D12C29A2BF00FD2CE6 /* BackgroundTaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskScheduler.swift; sourceTree = "<group>"; };
+		0D8326D32C29A2F500FD2CE6 /* StepCheckTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCheckTask.swift; sourceTree = "<group>"; };
+		0D8326D52C29B35200FD2CE6 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		0D8326D72C29B38600FD2CE6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0D8326D92C29B50600FD2CE6 /* ScreenTimeAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeAccessView.swift; sourceTree = "<group>"; };
+		0D8326DB2C29B6BB00FD2CE6 /* ChooseAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAppsView.swift; sourceTree = "<group>"; };
+		0D8326DD2C29B6CA00FD2CE6 /* SetStepThresholdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetStepThresholdView.swift; sourceTree = "<group>"; };
+		0D8326DF2C29B6E200FD2CE6 /* AllowNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowNotificationsView.swift; sourceTree = "<group>"; };
+		0D8326E12C29B9F600FD2CE6 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		0D8326E52C29D3B700FD2CE6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0D8326E82C29F54F00FD2CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8326EB2C2B063A00FD2CE6 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		0DA6ECF32C2B404900473587 /* SetStepThresholdPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetStepThresholdPickerView.swift; sourceTree = "<group>"; };
+		0DA6ECF52C2B429800473587 /* TimeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeHelper.swift; sourceTree = "<group>"; };
 		0DFA4AA22C271495008B934C /* WalkToUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkToUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFA4AA52C271495008B934C /* WalkToUnlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkToUnlockApp.swift; sourceTree = "<group>"; };
 		0DFA4AA72C271495008B934C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +81,11 @@
 		0DFA4ABC2C271496008B934C /* WalkToUnlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkToUnlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFA4AC02C271496008B934C /* WalkToUnlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkToUnlockUITests.swift; sourceTree = "<group>"; };
 		0DFA4AC22C271496008B934C /* WalkToUnlockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkToUnlockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DFA4AD42C271EE1008B934C /* WalkToUnlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WalkToUnlock.entitlements; sourceTree = "<group>"; };
+		0DFA4AD52C271F84008B934C /* StepManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepManager.swift; sourceTree = "<group>"; };
+		0DFA4AD72C272252008B934C /* AppShieldManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShieldManager.swift; sourceTree = "<group>"; };
+		0DFA4AD92C272567008B934C /* FamilyActivityPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyActivityPickerView.swift; sourceTree = "<group>"; };
+		0DFA4ADB2C287F46008B934C /* LocalStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +113,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D522FB02C4E73A300CE95AF /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				0DFA4AD92C272567008B934C /* FamilyActivityPickerView.swift */,
+				0DA6ECF32C2B404900473587 /* SetStepThresholdPickerView.swift */,
+				0D522FB32C4E73F500CE95AF /* RequireHealthKitAccessView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		0D8326D02C29A02E00FD2CE6 /* BackgroundTasks */ = {
+			isa = PBXGroup;
+			children = (
+				0D8326D12C29A2BF00FD2CE6 /* BackgroundTaskScheduler.swift */,
+				0D8326D32C29A2F500FD2CE6 /* StepCheckTask.swift */,
+			);
+			path = BackgroundTasks;
+			sourceTree = "<group>";
+		};
+		0D8326E72C29D3D700FD2CE6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0D8326DB2C29B6BB00FD2CE6 /* ChooseAppsView.swift */,
+				0D8326D92C29B50600FD2CE6 /* ScreenTimeAccessView.swift */,
+				0D8326DF2C29B6E200FD2CE6 /* AllowNotificationsView.swift */,
+				0D8326E52C29D3B700FD2CE6 /* OnboardingView.swift */,
+				0D8326DD2C29B6CA00FD2CE6 /* SetStepThresholdView.swift */,
+				0D8326D72C29B38600FD2CE6 /* LoginView.swift */,
+				0D77DE512C41AA4000464C4B /* HealthKitAccessView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0D8326EA2C2B060200FD2CE6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0D8326EB2C2B063A00FD2CE6 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		0DFA4A992C271495008B934C = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +177,19 @@
 		0DFA4AA42C271495008B934C /* WalkToUnlock */ = {
 			isa = PBXGroup;
 			children = (
+				0D8326EA2C2B060200FD2CE6 /* Constants */,
+				0D8326E82C29F54F00FD2CE6 /* Info.plist */,
+				0D8326D02C29A02E00FD2CE6 /* BackgroundTasks */,
+				0DFA4AD42C271EE1008B934C /* WalkToUnlock.entitlements */,
+				0DFA4AD32C271EC6008B934C /* Extensions */,
+				0DFA4AD22C271EBE008B934C /* Managers */,
+				0DFA4AD12C271EB7008B934C /* Models */,
+				0DFA4AD02C271EA1008B934C /* Helpers */,
+				0DFA4ACF2C2719DA008B934C /* Views */,
 				0DFA4AA52C271495008B934C /* WalkToUnlockApp.swift */,
-				0DFA4AA72C271495008B934C /* ContentView.swift */,
 				0DFA4AA92C271496008B934C /* Assets.xcassets */,
 				0DFA4AAB2C271496008B934C /* Preview Content */,
+				0D315F952C40720300C75D78 /* Launch Screen.storyboard */,
 			);
 			path = WalkToUnlock;
 			sourceTree = "<group>";
@@ -125,6 +217,50 @@
 				0DFA4AC22C271496008B934C /* WalkToUnlockUITestsLaunchTests.swift */,
 			);
 			path = WalkToUnlockUITests;
+			sourceTree = "<group>";
+		};
+		0DFA4ACF2C2719DA008B934C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D522FB02C4E73A300CE95AF /* Sheets */,
+				0D8326E72C29D3D700FD2CE6 /* Onboarding */,
+				0DFA4AA72C271495008B934C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DFA4AD02C271EA1008B934C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0DA6ECF52C2B429800473587 /* TimeHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0DFA4AD12C271EB7008B934C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D8326D52C29B35200FD2CE6 /* OnboardingViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DFA4AD22C271EBE008B934C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0DFA4AD52C271F84008B934C /* StepManager.swift */,
+				0DFA4AD72C272252008B934C /* AppShieldManager.swift */,
+				0DFA4ADB2C287F46008B934C /* LocalStoreManager.swift */,
+				0D8326E12C29B9F600FD2CE6 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0DFA4AD32C271EC6008B934C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D315F962C40720300C75D78 /* Launch Screen.storyboard in Resources */,
 				0DFA4AAD2C271496008B934C /* Preview Assets.xcassets in Resources */,
 				0DFA4AAA2C271496008B934C /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +394,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8326E02C29B6E200FD2CE6 /* AllowNotificationsView.swift in Sources */,
+				0D8326EC2C2B063A00FD2CE6 /* AppConstants.swift in Sources */,
+				0D8326D42C29A2F500FD2CE6 /* StepCheckTask.swift in Sources */,
+				0D8326DE2C29B6CA00FD2CE6 /* SetStepThresholdView.swift in Sources */,
 				0DFA4AA82C271495008B934C /* ContentView.swift in Sources */,
+				0DA6ECF62C2B429800473587 /* TimeHelper.swift in Sources */,
+				0D8326D22C29A2BF00FD2CE6 /* BackgroundTaskScheduler.swift in Sources */,
+				0D8326E22C29B9F600FD2CE6 /* NotificationManager.swift in Sources */,
+				0DA6ECF42C2B404900473587 /* SetStepThresholdPickerView.swift in Sources */,
+				0DFA4ADC2C287F46008B934C /* LocalStoreManager.swift in Sources */,
+				0D8326DA2C29B50600FD2CE6 /* ScreenTimeAccessView.swift in Sources */,
+				0D8326D62C29B35200FD2CE6 /* OnboardingViewModel.swift in Sources */,
+				0D77DE522C41AA4000464C4B /* HealthKitAccessView.swift in Sources */,
 				0DFA4AA62C271495008B934C /* WalkToUnlockApp.swift in Sources */,
+				0D522FB42C4E73F500CE95AF /* RequireHealthKitAccessView.swift in Sources */,
+				0DFA4AD82C272252008B934C /* AppShieldManager.swift in Sources */,
+				0D8326D82C29B38600FD2CE6 /* LoginView.swift in Sources */,
+				0D8326DC2C29B6BB00FD2CE6 /* ChooseAppsView.swift in Sources */,
+				0DFA4ADA2C272567008B934C /* FamilyActivityPickerView.swift in Sources */,
+				0D8326E62C29D3B700FD2CE6 /* OnboardingView.swift in Sources */,
+				0DFA4AD62C271F84008B934C /* StepManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,27 +575,40 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = WalkToUnlock/WalkToUnlock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalkToUnlock/Preview Content\"";
 				DEVELOPMENT_TEAM = MQY68JR82J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalkToUnlock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WalkToUnlock;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your step count data to check when your step count exceeds the step threshold you set to unblock your apps.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires updates to your step count data to check when your step count exceeds the step threshold you set to unblock your apps.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jimmygreaser.WalkToUnlock;
+				MARKETING_VERSION = 1.01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmygreaser.WalkToUnlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,27 +617,40 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = WalkToUnlock/WalkToUnlock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalkToUnlock/Preview Content\"";
 				DEVELOPMENT_TEAM = MQY68JR82J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalkToUnlock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WalkToUnlock;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your step count data to check when your step count exceeds the step threshold you set to unblock your apps.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires updates to your step count data to check when your step count exceeds the step threshold you set to unblock your apps.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jimmygreaser.WalkToUnlock;
+				MARKETING_VERSION = 1.01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmygreaser.WalkToUnlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
